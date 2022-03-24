@@ -1,0 +1,7 @@
+23:55:28.238 [main] INFO  resources.base - Navigated to Home page
+23:55:28.387 [main] INFO  resources.base - Maximized window size
+23:55:28.588 [main] INFO  resources.base - Email send on the editBox successfully
+23:55:28.715 [main] INFO  resources.base - Paasword send on the editBox successfully
+23:55:28.803 [main] INFO  resources.base - Successfully Clicked on login page 
+23:55:30.808 [main] INFO  resources.base - After clicked waite for 2 secs 
+23:55:30.809 [main] INFO  resources.base - Login Successfully

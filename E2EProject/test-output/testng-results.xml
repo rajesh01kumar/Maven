@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-13T15:10:18 IST" name="Suite" finished-at="2022-03-13T15:10:41 IST" duration-ms="22394">
+    <groups>
+    </groups>
+    <test started-at="2022-03-13T15:10:18 IST" name="Validating login page" finished-at="2022-03-13T15:10:39 IST" duration-ms="20414">
+      <class name="Acadmey.ValidateTitle">
+        <test-method is-config="true" signature="initialized()[pri:0, instance:Acadmey.ValidateTitle@7eb01b12]" started-at="2022-03-13T15:10:18 IST" name="initialized" finished-at="2022-03-13T15:10:21 IST" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialized -->
+        <test-method signature="validateAfterloginPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Acadmey.ValidateTitle@7eb01b12]" started-at="2022-03-13T15:10:22 IST" name="validateAfterloginPage" data-provider="getData" finished-at="2022-03-13T15:10:33 IST" duration-ms="11966" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7897988634]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rajesh@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login Successfully]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Rajesh123] but found [Rajesh]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Rajesh123] but found [Rajesh]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at Acadmey.ValidateTitle.validateAfterloginPage(ValidateTitle.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAfterloginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Acadmey.ValidateTitle@7eb01b12]" started-at="2022-03-13T15:10:35 IST" name="tearDown" finished-at="2022-03-13T15:10:39 IST" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Acadmey.ValidateTitle -->
+    </test> <!-- Validating login page -->
+    <test started-at="2022-03-13T15:10:18 IST" name="Test" finished-at="2022-03-13T15:10:41 IST" duration-ms="22394">
+      <class name="Acadmey.HomePage">
+        <test-method is-config="true" signature="initialized()[pri:0, instance:Acadmey.HomePage@724f138e]" started-at="2022-03-13T15:10:18 IST" name="initialized" finished-at="2022-03-13T15:10:21 IST" duration-ms="3045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialized -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Acadmey.HomePage@724f138e]" started-at="2022-03-13T15:10:22 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-03-13T15:10:33 IST" duration-ms="11461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7897988645]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rajesh12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Acadmey.HomePage@724f138e]" started-at="2022-03-13T15:10:33 IST" name="basePageNavigation" data-provider="getData" finished-at="2022-03-13T15:10:37 IST" duration-ms="3659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7897988634]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rajesh@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Login Successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Acadmey.HomePage@724f138e]" started-at="2022-03-13T15:10:37 IST" name="teardown" finished-at="2022-03-13T15:10:41 IST" duration-ms="4159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Acadmey.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
